@@ -9,7 +9,7 @@ String upperCaseInput = cheers.toUpperCase();
 for (int i = 0; i < upperCaseInput.length(); i++){
         if(special.indexOf(upperCaseInput.charAt(i)) != -1){
                 System.out.println("Give me an " + upperCaseInput.charAt(i) + ": " + upperCaseInput.charAt(i) + "!" );}
-        else{ System.out.println("Give me a " + upperCaseInput.charAt(i) + ": " + upperCaseInput.charAt(i) + "!" );}}
+        else{ System.out.println("Give me a  " + upperCaseInput.charAt(i) + ": " + upperCaseInput.charAt(i) + "!" );}}
 
 System.out.println("What does that spell?");
 
