@@ -17,8 +17,7 @@ public class CalcPi {
 		totalpai = totalpai*4;
 
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated:" + " " + totalpai);
-
+		System.out.println("pi, approximated:	  " + " " + totalpai);
  
 	}
 	}
