@@ -3,14 +3,10 @@ public class Collatz {
 	public static void main(String args[]) {
 		int times = Integer.parseInt(args[0]);
 		String mode = args[1].toLowerCase();
-		if (mode.equals("c")) {
-			System.out.println("Every one of the first " +times+ " hailstone sequences reached 1.");
-			return;
-		}
-
+	
 		for (int j = 0; j < times; j++) {
 			int number = j + 1;
-			int i = 0;
+			int i = 1;
 			do {
 				i++;
 				if (mode.equals("v")) {
@@ -28,5 +24,6 @@ public class Collatz {
 			} while(number!=1);
 			System.out.println(number + " (" + i + ")");
 		}
+		System.out.println("Every one of the first " +times+ " hailstone sequences reached 1.");
 	}
 }
